@@ -1,0 +1,107 @@
+.box{
+  background-color: #578176;
+  opacity: 0.6;
+  width: 1920px;
+  height: 960px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  background: url("images/Untitled-2.png");
+  opacity: 1;
+  width: 1450px;
+  height: 893px;
+}
+
+.logo {
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+}
+
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+h3 {
+  color:black;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: lighter;
+  top: 45; bottom: 45; left: 68; right: 35;
+  margin: auto;
+}
+
+nav {
+  float: right;
+  width: 100%;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 90px;
+  padding-top: 23px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+color:#7BBEAC;
+}
+
+.container > div {
+  display: flex;
+  justify-content: left;
+  align-items: left; 
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: lighter;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+}
+
+
+.container > div:nth-child(1n) {
+  background-color: #7BBEAC;	
+}
+
+.container > div:nth-child(2n) {
+      background-color: #DCC7C2;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #DFC75A;
+}
+
+.container > div:nth-child(4n) {
+      background-color: #B99898;
+}
+
+
+
+
+
+
